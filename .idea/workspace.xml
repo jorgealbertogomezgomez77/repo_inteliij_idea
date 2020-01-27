@@ -20,7 +20,6 @@
       <change beforePath="$PROJECT_DIR$/Maestria_en_videojuegos/.idea/uiDesigner.xml" beforeDir="false" afterPath="$PROJECT_DIR$/com.lwdp.www/Maestria_en_videojuegos/.idea/uiDesigner.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Maestria_en_videojuegos/src/videojuegos/maestria/java/Memory/Memory.form" beforeDir="false" afterPath="$PROJECT_DIR$/com.lwdp.www/Maestria_en_videojuegos/src/videojuegos/maestria/java/Memory/Memory.form" afterDir="false" />
     </list>
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -30,35 +29,29 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="ROOT_SYNC" value="DONT_SYNC" />
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="417" />
-    <option name="y" value="-14" />
-    <option name="width" value="697" />
-    <option name="height" value="745" />
-  </component>
   <component name="ProjectId" id="1TYIYVfO8m64j3RhsyVdVc4pkaq" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$USER_HOME$/AppData/Local/GitHubDesktop/app-2.2.3/resources/app/git/mingw64/bin/git.exe" />
-    <property name="settings.editor.selected.configurable" value="settings.github" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.standard" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.standard" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.standard" value="" />
+    <property name="settings.editor.selected.configurable" value="settings.javascript.linters.eslint" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\GitHub Repositories\IntelliJ IDEA Work REPO\com.lwdp.www" />
     </key>
-  </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
   </component>
   <component name="RunManager">
     <configuration default="true" type="Application" factoryName="Application">
@@ -84,6 +77,18 @@
       </method>
     </configuration>
   </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
   <component name="SvnConfiguration">
     <configuration>C:\Users\jorge\AppData\Roaming\Subversion</configuration>
   </component>
@@ -97,6 +102,7 @@
       <workItem from="1538205086629" duration="1928000" />
       <workItem from="1538207102864" duration="194000" />
       <workItem from="1573630655281" duration="826000" />
+      <workItem from="1578713700296" duration="200000" />
     </task>
     <servers />
   </component>
@@ -108,11 +114,27 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
     </option>
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="740" y="280" key="FileChooserDialogImpl" timestamp="1578713817030">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="740" y="280" key="FileChooserDialogImpl/0.0.1920.1050/1920.0.1280.689@0.0.1920.1050" timestamp="1578713817030" />
+    <state x="461" y="168" key="SettingsEditor" timestamp="1578713856464">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="461" y="168" key="SettingsEditor/0.0.1920.1050/1920.0.1280.689@0.0.1920.1050" timestamp="1578713856464" />
+    <state x="656" y="350" key="com.intellij.ide.util.TipDialog" timestamp="1578713701154">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="656" y="350" key="com.intellij.ide.util.TipDialog/0.0.1920.1050/1920.0.1280.689@0.0.1920.1050" timestamp="1578713701154" />
   </component>
   <component name="masterDetails">
     <states>
