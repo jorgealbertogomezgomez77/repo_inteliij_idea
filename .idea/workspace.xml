@@ -2,34 +2,31 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ee729f9a-04f5-4301-8ba8-4693b0c49da2" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/13_11_2019/src/vitico.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/com.lwdp.www/Maestria_en_videojuegos/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/com.lwdp.www/Maestria_en_videojuegos/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/com.lwdp.www/Maestria_en_videojuegos/Maestria_en_videojuegos.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/com.lwdp.www/Maestria_en_videojuegos/out/production/Maestria_en_videojuegos/videojuegos/maestria/java/Monigote/monigote.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/com.lwdp.www/Maestria_en_videojuegos/out/production/Maestria_en_videojuegos/videojuegos/maestria/java/Monigote/monigote_inkscape_2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/com.lwdp.www/Maestria_en_videojuegos/src/videojuegos/maestria/java/Memory/Clase2Memory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/com.lwdp.www/Maestria_en_videojuegos/src/videojuegos/maestria/java/Memory/Memory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/com.lwdp.www/Maestria_en_videojuegos/src/videojuegos/maestria/java/Memory/Memory_2.form" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/com.lwdp.www/Maestria_en_videojuegos/src/videojuegos/maestria/java/Memory/Memory_2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/com.lwdp.www/Maestria_en_videojuegos/src/videojuegos/maestria/java/Monigote/Monigote.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/com.lwdp.www/Maestria_en_videojuegos/src/videojuegos/maestria/java/Monigote/monigote.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/com.lwdp.www/Maestria_en_videojuegos/src/videojuegos/maestria/java/Monigote/monigote_inkscape_2.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Maestria_en_videojuegos/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/com.lwdp.www/Maestria_en_videojuegos/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Maestria_en_videojuegos/.idea/uiDesigner.xml" beforeDir="false" afterPath="$PROJECT_DIR$/com.lwdp.www/Maestria_en_videojuegos/.idea/uiDesigner.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Maestria_en_videojuegos/src/videojuegos/maestria/java/Memory/Memory.form" beforeDir="false" afterPath="$PROJECT_DIR$/com.lwdp.www/Maestria_en_videojuegos/src/videojuegos/maestria/java/Memory/Memory.form" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Maestria_en_videojuegos/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Maestria_en_videojuegos/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Maestria_en_videojuegos/src/videojuegos/maestria/java/Memory/Memory.form" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="ROOT_SYNC" value="DONT_SYNC" />
   </component>
   <component name="ProjectId" id="1TYIYVfO8m64j3RhsyVdVc4pkaq" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -42,10 +39,16 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.standard" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.path.for.package.standard" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.standard" value="" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="settings.javascript.linters.eslint" />
   </component>
   <component name="RecentsManager">
@@ -54,6 +57,14 @@
     </key>
   </component>
   <component name="RunManager">
+    <configuration name="RockPaperScissors" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="RockPaperScissors" />
+      <module name="the_java_school" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <method v="2">
@@ -76,6 +87,11 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.RockPaperScissors" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="ServiceViewManager">
     <option name="viewStates">
@@ -103,6 +119,8 @@
       <workItem from="1538207102864" duration="194000" />
       <workItem from="1573630655281" duration="826000" />
       <workItem from="1578713700296" duration="200000" />
+      <workItem from="1588741685065" duration="2608000" />
+      <workItem from="1588744458445" duration="125000" />
     </task>
     <servers />
   </component>
@@ -123,44 +141,21 @@
     </option>
   </component>
   <component name="WindowStateProjectService">
-    <state x="740" y="280" key="FileChooserDialogImpl" timestamp="1578713817030">
+    <state x="171" y="186" key="#Project_Structure" timestamp="1588744115990">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="740" y="280" key="FileChooserDialogImpl/0.0.1920.1050/1920.0.1280.689@0.0.1920.1050" timestamp="1578713817030" />
-    <state x="461" y="168" key="SettingsEditor" timestamp="1578713856464">
+    <state x="171" y="186" key="#Project_Structure/0.0.1920.1050@0.0.1920.1050" timestamp="1588744115990" />
+    <state x="739" y="266" key="FileChooserDialogImpl" timestamp="1588744545733">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="461" y="168" key="SettingsEditor/0.0.1920.1050/1920.0.1280.689@0.0.1920.1050" timestamp="1578713856464" />
-    <state x="656" y="350" key="com.intellij.ide.util.TipDialog" timestamp="1578713701154">
+    <state x="739" y="266" key="FileChooserDialogImpl/0.0.1920.1050@0.0.1920.1050" timestamp="1588744545733" />
+    <state x="656" y="350" key="com.intellij.ide.util.TipDialog" timestamp="1588741686945">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="656" y="350" key="com.intellij.ide.util.TipDialog/0.0.1920.1050/1920.0.1280.689@0.0.1920.1050" timestamp="1578713701154" />
-  </component>
-  <component name="masterDetails">
-    <states>
-      <state key="ProjectJDKs.UI">
-        <settings>
-          <last-edited>1.8</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ScopeChooserConfigurable.UI">
-        <settings>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-    </states>
+    <state x="656" y="350" key="com.intellij.ide.util.TipDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1588741686945" />
+    <state x="342" y="145" key="new project wizard" timestamp="1588744581365">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="342" y="145" key="new project wizard/0.0.1920.1050@0.0.1920.1050" timestamp="1588744581365" />
   </component>
 </project>
