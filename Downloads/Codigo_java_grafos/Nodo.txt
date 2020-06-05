@@ -1,0 +1,28 @@
+
+import java.util.ArrayList;
+public class Nodo
+{
+    private Object dato;// define a dato como un objeo simple
+    private ArrayList<Nodo> nodo;//define a los lugares en la lista como nodos
+    public boolean visitado = false;// define un parametro del tipo booleano para la marca visitado
+
+    public Nodo(){// prepara espacio para el nodo
+    	this(new Object());
+    }
+    public Nodo(Object dato){//metodo sobre cargado de Nodo
+        this.dato = dato;//define un puntero para dato
+        nodo = new ArrayList<Nodo>();//creacion del nodo en el arreglo
+    }
+    public void setDato(Object dato){//los metodos getDato y setDato sirven para poder marcar al nodo con un dato (el booleano)
+        this.dato = dato;
+    }
+    public Object getDato(){
+        return this.dato;
+    }
+    public void setNodo(Nodo nodo){//puntero para el nodo al agragarlo
+        this.nodo.add(nodo);
+    }
+    public ArrayList<Nodo> getHijos(){//para identificar en el arreglo quien es nodo hijo y devolverlo
+        return nodo;
+    }
+}
