@@ -1,0 +1,31 @@
+
+import java.util.ArrayList;
+public class Pila extends ArrayList{//usa funciones de Arraylist
+    public Pila() {
+        super();//metodo super de ArrayList
+    }
+    public void addNodo(Nodo nodo){//metodo paragragar nodo a la lista
+        if(!this.contains(nodo) && nodo.visitado != true){//si el puntero contiene un nodo y este no a sido visitado lo agrega al listado
+            add(nodo);
+            System.out.println();
+            mostrarContenido();
+        }
+    }
+    public Nodo getNodo(){//busca el nodo indicado y si todavia esta y no a asido visitado recupera el valor y despues lo elimina de la lista
+    		
+        Nodo nodoTemp = null;
+        if(!this.isEmpty() && this != null){//
+            nodoTemp = (Nodo)this.get(this.size() - 1);//como es pila es LIFO
+            this.remove(this.size() - 1);
+        }
+              
+        return nodoTemp; // si el if falla regresa un valor null
+    }
+    public void mostrarContenido(){//este metodo solo imprime el contenido de la lista 
+        System.out.print("[");
+        for(int i = 0;i < this.size();i++){
+            System.out.print(((Nodo)this.get(i)).getDato());
+        }
+        System.out.print("]");        
+    }
+}
