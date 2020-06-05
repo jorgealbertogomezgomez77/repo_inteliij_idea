@@ -1,0 +1,51 @@
+
+public class Recorrido{
+    private Pila pila;//declaracion de la cola y la pila 
+    private Cola cola;
+
+    public Recorrido(){//creacio de los objetos 
+        pila = new Pila();
+        cola = new Cola();
+    }
+    private void llenarPilaNodosAdyacentes(Nodo nodo){//llenado de la pila para usar en busqueda de profundidad
+        for(int i = 0; i < nodo.getHijos().size();i++){
+            if(!nodo.getHijos().contains(nodo)){                
+                pila.addNodo(nodo.getHijos().get(i));
+            }
+        }
+    }
+    private void llenarColaNodosAdyacentes(Nodo nodo){//llenado de la cola para busqueda en amplitud
+        for(int i = 0; i < nodo.getHijos().size();i++){
+            if(!nodo.getHijos().contains(nodo)){                
+                cola.addNodo(nodo.getHijos().get(i));
+            }
+        }
+    }
+    
+    public void recorrerProfundidadIterativo(Grafo grafo,Nodo nodoInicio){
+        if(grafo != null && nodoInicio != null){//si no esta vacio lo coloca como raiz
+            pila.addNodo(nodoInicio);
+            while(pila.size() > 0){//Mientras que la pila no se acabe
+                Nodo nodoVisitado = pila.getNodo();//agraga a los nodos visitados el nodo actual
+                if(nodoVisitado.visitado == false){//sino
+                    nodoVisitado.visitado = true;// lo marca para no volver a contarlo
+                    System.out.print(nodoVisitado.getDato()+",");//lo imprime                
+                    llenarPilaNodosAdyacentes(nodoVisitado);//y lo agraga a la lista de adyacentes
+                }
+            }
+        }
+    }
+    public void recorrerAmplitud(Grafo grafo,Nodo nodoInicio){
+        if(grafo != null && nodoInicio != null){//si no esta vacio lo coloca como raiz
+            cola.addNodo(nodoInicio);
+            while(cola.size() > 0){//mientras que no se termina la cola 
+                Nodo nodoVisitado = cola.getNodo();//obtiene el valor del nodo a visitar
+                if(nodoVisitado.visitado == false){//si no a sido visitado
+                    nodoVisitado.visitado = true;//lo marca como visitado
+                    System.out.print(nodoVisitado.getDato()+","); //lo imprime               
+                    llenarColaNodosAdyacentes(nodoVisitado);//y lo agraga a nodos adyacentes 
+                }
+            }           
+        }        
+    }
+}
