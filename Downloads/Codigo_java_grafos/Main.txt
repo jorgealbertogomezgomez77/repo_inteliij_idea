@@ -1,0 +1,70 @@
+
+public class Main{
+    static Grafo grafo;//<--Se declara que grafo va a ser accesible desde la clase Grafo
+    
+    public static void llenandoGrafo(){
+        grafo = new Grafo();//<---Construimos al objeto grafo eh indicamos que estara definodo en  la clase Grafo
+        
+        grafo.adjuntarNodo(new Nodo("A")); //Creacion de los nodos
+        grafo.adjuntarNodo(new Nodo("B")); //ojo no de sus vertices     
+        grafo.adjuntarNodo(new Nodo("C"));
+        grafo.adjuntarNodo(new Nodo("D"));
+        grafo.adjuntarNodo(new Nodo("F"));
+       
+        grafo.crearEnlaces("A","B");// de A hacia B
+        grafo.crearEnlaces("B","A");// de B hacia A
+        /*
+         * Lo anterior lo hacemos por ser un grafo no dirigido...
+         * En caso de ser un grafo con peso esto no estaria muy bien que digamos
+         * De la misma forma lo hacemos con los demas vertices
+        */
+        
+        grafo.crearEnlaces("A","C");
+        grafo.crearEnlaces("C","A");
+        
+        grafo.crearEnlaces("A","F");
+        grafo.crearEnlaces("F","A");
+        
+//        grafo.crearEnlaces("B","A");//Esta enlace ya existe
+//        grafo.crearEnlaces("A","B");//Esta enlace ya existe
+        
+        grafo.crearEnlaces("B","F");
+        grafo.crearEnlaces("F","B");
+        
+//        grafo.crearEnlaces("C","A");//Esta enlace ya existe
+//        grafo.crearEnlaces("A","C");//Esta enlace ya existe
+        
+        grafo.crearEnlaces("C","D");
+        grafo.crearEnlaces("D","C");
+        
+//        grafo.crearEnlaces("D","C");//Esta enlace ya existe
+//        grafo.crearEnlaces("C","D");//Esta enlace ya existe
+        
+//        grafo.crearEnlaces("F","A");//Esta enlace ya existe
+//        grafo.crearEnlaces("A","F");//Esta enlace ya existe
+        
+//        grafo.crearEnlaces("F","B");//Esta enlace ya existe
+//        grafo.crearEnlaces("B","F");//Esta enlace ya existe
+ 
+    }
+    
+    
+    public static void main(String []args){        
+        
+        llenandoGrafo(); //llamando a llenando grafo(si lo que esta arriba)
+        
+        Recorrido recorrido = new Recorrido(); //creacion de un objeto para ralizar el recorrido
+        System.out.println("----------------------------------------------");
+        System.out.println("Recorrido en profundidad");   
+        recorrido.recorrerProfundidadIterativo(grafo,grafo.buscarNodo("A"));// usando el metodo de rocorrer een profundidad
+        System.out.println();												//de el objeto recorrido usando como raiz el nodo A 
+        
+        llenandoGrafo();//llamando a llenando grafo(si lo que esta arriba)
+        				// no hay problema por que ya esta definido sus vertices
+        System.out.println("----------------------------------------------");
+        System.out.println("Recorrido en Amplitud");        
+        recorrido.recorrerAmplitud(grafo,grafo.buscarNodo("A"));//usando recorrido en aplitud de el objeto recorrido usando de raiz A
+        System.out.println();
+        System.out.println("----------------------------------------------");        
+    }
+}
