@@ -1,0 +1,96 @@
+AA = Rickard Stark (M) 67       
+AB = Eddard Stark (M) 40      
+AC = Catelyn Tully (F) 35
+AD = Brandon Stark (M) 15        
+AE = Benjen Stark (M) 35         
+AF = Jon Snow (M) 17
+AG = Robb Stark (M) 17           
+AH = Sansa Stark (F) 16          
+AI = Arya Stark (F) 14
+AJ = Bran Stark (M) 13           
+AK = Rickon Stark (M) 11         
+AL = Hoster Tully (M) 72      
+AN = Edmure Tully (M) 42         
+AO = Lysa Tully (F) 40      
+AQ = Robert Arryn (M) 24        
+AR = Tytos Lannister (M) 80
+AS = Tywin Lannister (M) 64
+AU = Kevan Lannister (M) 62
+AV = Cersei Lannister (F) 36     
+AW = Jamie Lannister (M) 35      
+AX = Tyrion Lannister (M) 30
+AY = Robert Baratheon (M) 39     
+AZ = Joffrey Baratheon (M) 18    
+BA = Myrcella Baratheon (F) 23
+BB = Tommen Baratheon (M) 16     
+BC = Lancel Lannister (M) 34     
+BD = Steffon Baratheon (M) 65
+BE = Stannis Baratheon (M) 45      
+BG = Shireen Baratheon (F) 20
+BH = Renly Baratheon (M) 38     
+BI = Jaehaerys Targaryen (M) 74 
+BJ = Aerys Targaryen (M) 53
+BK = Rhaella Targaryen (F) 52   
+BL = Rhaegar Targaryen (M) 32    
+BN = Rhaenys Targaryen (F) 17    
+BO = Aegon Targaryen (M) 14      
+BP = Viserys Targaryen (M) 36
+BQ = Daenerys Targaryen (F) 27   
+BR = Quellon Greyjoy (M) 85      
+BS = Balon Greyjoy (M) 47
+BT = Euron Greyjoy (M) 46        
+BU = Victarion Greyjoy (M) 41    
+BV = Urrigon Greyjoy (M) 40
+BW = Aeron Greyjoy (M) 48        
+BX = Rodrik Greyjoy (M) 20       
+BY = Maron Greyjoy (M) 22
+BZ = Asha Greyjoy (F) 18        
+CA = Theon Greyjoy (M) 23        
+---------------------------------------------------------------------------------------
+6
+AA
+AL
+AR
+BD
+BI
+BR
+AA -> AD
+AA -> AB
+AA -> AE
+AB -> AF
+AB -> AG
+AB -> AH
+AB -> AI
+AB -> AJ
+AB -> AK
+AL -> AC
+AL -> AN
+AL -> AO
+AO -> AQ
+AR -> AS
+AR -> AU
+AS -> AV
+AS -> AW
+AS -> AX
+AU -> BC
+BD -> AY
+BD -> BE
+BD -> BH
+AY -> AZ
+AY -> BA
+AY -> BB
+BE -> BG
+BI -> BJ
+BJ -> BL
+BJ -> BQ
+BJ -> BP
+BL -> BN
+BL -> BO
+BR -> BS
+BR -> BT
+BR -> BU
+BR -> BW
+BS -> BX
+BS -> BY
+BS -> BZ
+BS -> CA

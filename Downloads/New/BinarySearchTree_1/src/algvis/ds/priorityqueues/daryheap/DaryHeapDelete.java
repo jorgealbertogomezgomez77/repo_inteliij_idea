@@ -1,0 +1,94 @@
+/*******************************************************************************
+ * Copyright (c) 2012-present Jakub Kováč, Jozef Brandýs, Katarína Kotrlová,
+ * Pavol Lukča, Ladislav Pápay, Viktor Tomkovič, Tatiana Tóthová
+ *
+ * This program is free software: you can redistribute it and/or modify
+ * it under the terms of the GNU General Public License as published by
+ * the Free Software Foundation, either version 3 of the License, or
+ * (at your option) any later version.
+ *
+ * This program is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ * GNU General Public License for more details.
+ *
+ * You should have received a copy of the GNU General Public License
+ * along with this program.  If not, see <http://www.gnu.org/licenses/>.
+ ******************************************************************************/
+package algvis.ds.priorityqueues.daryheap;
+
+import algvis.core.Node;
+import algvis.ui.view.REL;
+
+public class DaryHeapDelete extends DaryHeapAlg {
+    public DaryHeapDelete(DaryHeap H) {
+        super(H);
+    }
+
+    @Override
+    public void runAlgorithm() {
+        setHeader(H.minHeap ? "delete-min" : "delete-max");
+        if (H.root == null) {
+            addStep(H.getBoundingBoxDef(), 200, REL.TOP, "heapempty");
+            H.last = null;
+            return;
+        }
+
+        if (H.root.c.size() == 0) {
+            final DaryHeapNode v = H.root;
+            addStep(H, 200, REL.TOP, H.minHeap ? "minimum" : "maximum",
+                H.root.getKeyS());
+            H.root = null;
+            addToScene(v);
+            v.mark();
+            // --H.n;
+            pause();
+            v.unmark();
+            v.goDown();
+            removeFromScene(v);
+            return;
+        }
+        addStep(H, 200, REL.TOP, H.minHeap ? "minimum" : "maximum",
+            H.root.getKeyS());
+        H.root.mark();
+        pause();
+        // H.root.unmark();
+        addStep(H, 200, REL.TOP, "heapchange");
+        pause();
+        H.root.unmark();
+
+        DaryHeapNode v = new DaryHeapNode(H.last);
+        final DaryHeapNode v2 = new DaryHeapNode(H.root);
+        addToScene(v);
+        addToScene(v2);
+        H.last.setKey(Node.NOKEY);
+        H.root.setKey(Node.NOKEY);
+        v.goToRoot();
+        v2.goTo(H.last);
+        v2.mark();
+        pause();
+        H.last.setKey(v2.getKey());
+        H.root.setKey(v.getKey());
+        H.last.setColor(v2.getColor());
+        H.root.setColor(v.getColor());
+        removeFromScene(v);
+        removeFromScene(v2);
+
+        v = H.last;
+        addToScene(v);
+        H.last = H.last.prevneighbour();
+        v.goDown();
+        removeFromScene(v);
+        v.getParent().c.set(v.nson - 1, null);
+        v.getParent().c.setSize(v.getParent().c.size() - 1);
+        H.root.mark();
+        H.reposition();
+
+        addStep(v, REL.BOTTOM,
+            H.minHeap ? "mindheapbubbledown" : "maxdheapbubbledown");
+        pause();
+
+        H.root.unmark();
+        bubbledown(H.root);
+    }
+}

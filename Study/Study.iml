@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="JAVA_MODULE" version="4">
+  <component name="NewModuleRootManager" inherit-compiler-output="true">
+    <exclude-output />
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/src" isTestSource="false" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="module-library" exported="">
+      <library>
+        <CLASSES>
+          <root url="jar://D:/Complementos, plugin, etc/selenium-server-standalone-3.14.0.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="library" scope="PROVIDED" name="GlassFish 5.0.0 - JSON Processing (JSR 353)" level="application_server_libraries" />
+    <orderEntry type="library" scope="PROVIDED" name="GlassFish 5.0.0 - CDI: Contexts and Dependency Injection" level="application_server_libraries" />
+    <orderEntry type="library" scope="PROVIDED" name="GlassFish 5.0.0 - Concurrency Utils (JSR 236)" level="application_server_libraries" />
+    <orderEntry type="library" scope="PROVIDED" name="GlassFish 5.0.0 - JSF" level="application_server_libraries" />
+    <orderEntry type="library" scope="PROVIDED" name="GlassFish 5.0.0 - Connector Architecture (JSR 322)" level="application_server_libraries" />
+    <orderEntry type="library" scope="PROVIDED" name="GlassFish 5.0.0 - WebSocket" level="application_server_libraries" />
+    <orderEntry type="library" scope="PROVIDED" name="GlassFish 5.0.0 - JSON Binding" level="application_server_libraries" />
+    <orderEntry type="library" scope="PROVIDED" name="GlassFish 5.0.0 - JMS: Java Message Service" level="application_server_libraries" />
+    <orderEntry type="library" scope="PROVIDED" name="GlassFish 5.0.0 - RESTful Web Service" level="application_server_libraries" />
+    <orderEntry type="library" scope="PROVIDED" name="GlassFish 5.0.0 - Javaee Security" level="application_server_libraries" />
+    <orderEntry type="library" scope="PROVIDED" name="GlassFish 5.0.0 - Batch Applications" level="application_server_libraries" />
+    <orderEntry type="library" scope="PROVIDED" name="GlassFish 5.0.0 - Transaction API (JSR 907)" level="application_server_libraries" />
+    <orderEntry type="library" scope="PROVIDED" name="GlassFish 5.0.0 - EJB" level="application_server_libraries" />
+  </component>
+</module>
